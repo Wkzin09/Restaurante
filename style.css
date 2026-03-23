@@ -1,0 +1,77 @@
+body{
+ margin:0;
+ font-family: Arial;
+ background-color:#1b1b1b;
+ color:white;
+}
+
+header{
+ background-color:#8b0000;
+ padding:20px;
+ display:flex;
+ justify-content:space-between;
+ align-items:center;
+}
+
+nav a{
+ color:white;
+ margin-left:15px;
+ text-decoration:none;
+}
+
+.banner{
+ background-image:url("https://images.unsplash.com/photo-1544025162-d76694265947");
+ background-size:cover;
+ background-position:center;
+ text-align:center;
+ padding:120px 20px;
+}
+
+.banner h2{
+ font-size:65px;
+ font-weight: 600;
+}
+
+.menu{
+ padding: 40px;
+ text-align:center;
+}
+
+.pratos{
+ display:flex;
+ justify-content:center;
+ gap:70px;
+}
+
+.item{
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ background:#2a2a2a;
+ padding:15px;
+ border-radius:10px;
+ width:200px;
+}
+
+.item img{
+ width:100%;
+ border-radius:10px;
+}
+footer{
+ text-align:center;
+ padding:20px;
+ background:#111;
+}
+
+.sabuor{
+ color: white;
+ -webkit-text-stroke: 1px black;
+}
+
+.prato{
+ font-style: Arial;
+ font-size: 40px;
+ color: rgb(255, 255, 255);
+ -webkit-text-stroke: 1px rgb(0, 0, 0);
+ font-weight: 600;
+}
